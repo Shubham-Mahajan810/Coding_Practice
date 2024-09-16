@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(164, 89, 154);
+}
+h1{
+    color: blue;
+}
+P{
+    color: brown;
+    /* border: 2px red; */
+    border: 2px solid powderblue;
+    padding: 20px;
+}
+pre{
+    color: gold;
+    border:2px ridge lightskyblue;
+    padding: 20px;
+   margin-top: 10px;
+}
+a{
+    border: 2px solid rgb(186, 80, 80);
+    margin: 650px ;
+}

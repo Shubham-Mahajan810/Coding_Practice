@@ -1,0 +1,92 @@
+<html>
+    <head>
+       <title>
+        Navigation_Menu..
+       </title>
+       <link rel="Stylesheet" href="D:\HTML\Navigation_menu.css">
+    </title>
+       <style>
+        div {
+          width:100%;  
+          display:inline-block;
+          }
+       
+       </style>
+
+
+       <meta charset="UTF-8">
+       <meta http-equiv="refresh" content="30">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body background="image\maxim-berg-lnvpji4fC3c-unsplash.jpg" >
+   
+    
+     
+      
+        <header><h2>Navigation Menu..</h2></header>
+
+        <ul a>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#newa">News</a></li>
+         <li><a href="#contact">Contact</a></li>
+         <li><a href="#about">About</a></li>
+        </ul><br></br>
+ 
+    
+    
+        <fieldset class="one" >
+            <form action="/login">
+                <label for="fnmae">First Name:-</label>
+                <input type="text" id="fnmae" name="fnmae"><br></br>
+                <label for="lname">Last Name:-</label>
+                <input type="text" id="lname" name="lname"><br></br>
+                <input type="submit" value="submit">     <input type="button" value="Login">
+            </form>
+        </fieldset>
+           
+    <h2>Inline Elements..</h2>
+    <button onclick="myfunction()">Show Deff</button>
+    <p class="Deff">An inline Elements does not start an a new line..<br></br>
+    - An Inline Elements only takes up musch width as necessary..</p>
+
+    <script>
+        function myfunction(){
+            var x = document.getElementsByClassName("Deff");
+            for (var i = 0; i < x.length; i++) {
+               x[i].style.display="none";
+                
+            }
+        }
+    </script>
+          <h2 id="newa">News</h2>       
+          <p>
+            With falling lithium-ion battery prices, electric vehicles (EVs) can now maintain cost without subsidies but it is for the Finance and 
+            Heavy Industries Ministries to decide if incentives need to be given to electric vehicles, Union Minister Nitin Gadkari said on Monday.</p>
+
+
+    
+          <h1 id="myHeder">Hello Shubham..!</h1>
+          <button onclick="display()">Change text</button>
+          
+          <script>
+            function display(){
+                document.getElementById("myHeder").innerHTML="Have a nice Day..!";
+            }
+          </script><br></br>
+         <h2>iframe...</h2>
+         <iframe src="D:\HTML\Name.html" height="250px" width="300px" title="Name"></iframe><br></br>
+
+        
+         <aside>
+            <p>Hello Everyone...!<br>Thank You For Visiting <br>My Website..</p>
+         </aside><br></br>
+
+
+       
+        <br></br>
+        <footer>
+           <h4> This is Footer Section...</h4>
+        </footer>
+        </body>
+
+</html>
