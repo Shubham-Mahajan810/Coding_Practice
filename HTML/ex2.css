@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h2, h3, h4 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+main.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Left Section: About */
+.about_section {
+    flex: 2; /* Takes more space */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Section: Skills and Education */
+.right_side {
+    flex: 3; /* Slightly larger area */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill_section, .Education_Seaction {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress Bar Styling */
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+progress {
+    width: 100%;
+    height: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main.container {
+        flex-direction: column;
+    }
+
+    .about_section, .right_side {
+        flex: 1;
+    }
+}
