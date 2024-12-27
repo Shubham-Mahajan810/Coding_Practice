@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="ex4.css">
+</head>
+<body>
+     <div class="slideshow-container">
+          <!-- Slide 1 -->
+          <div class="slide fade">
+              <img src="Image\pexels-pixabay-33109.jpg" alt="Image 1">
+              <div class="description">
+                  <p>Image 1 Description Separation: The description block for the second image (description-outside) now appears below the image, while the first image's
+                     description remains overlayed on it.</p>
+                  <a href="https://example.com" target="_blank" title="Go to link">
+                      <span class="link-icon">&#128279;</span>
+                  </a>
+              </div>
+          </div>
+      
+          <!-- Slide 2 -->
+          <div class="slide fade">
+              <img src="Image\social-media-social-keyboard-icon.jpg" alt="Image 2">
+              <!-- Description moved outside the image -->
+              <div class="description">
+                  <p>Image 2 Description Separation: To adjust the first code so that the description appears outside the image and is centered horizontally, 
+                    update the CSS for the description section as follows:</p>
+                  <a href="https://example2.com" target="_blank" title="Go to link">
+                      <span class="link-icon">&#128279;</span>
+                  </a>
+              </div>
+          </div>
+      
+          <!-- Navigation Buttons -->
+          <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+      <!-- Navigation Buttons -->
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    <script src="ex4.js"></script>
+</body>
+</html>
